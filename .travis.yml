@@ -9,5 +9,4 @@ services:
 script:
   - rm -rf package-lock.json node_modules 
   - yarn install
-  - yarn install coveralls
   - yarn test
