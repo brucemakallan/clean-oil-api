@@ -8,6 +8,6 @@ services:
   - mongodb
 script:
   - rm -rf package-lock.json node_modules 
-  - npm i
-  - npm install coveralls
-  - npm test
+  - yarn install
+  - yarn install coveralls
+  - yarn test
